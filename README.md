@@ -46,3 +46,5 @@ W przypadku aplikacji 2, `input.txt` powinien w pierwszej linii zawierać liczb�
 Obie aplikacje pozwalają na wykonanie analizy czasu działania każdej z operacji dla każdego z algorytmów i struktur danych.
 
 Eksperyment polega na wygenerowaniu zadanej liczby struktur/grafów o losowej zawartości, a następnie przeprowadzeniu na każdej z nich podanej liczby losowych operacji/uruchomień algorytmów, wraz z mierzeniem czasu ich działania.
+
+<sub>Aplikacje wykonane w maju-czerwcu 2022 roku w ramach kursu "Struktury danych i złożoność obliczeniowa".</sub>
