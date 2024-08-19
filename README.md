@@ -1,7 +1,7 @@
 # Structure analysis
 
 ## Sekcja pierwsza - operacje na strukturach danych
-Katalog "1 - structure" zawiera aplikację operującą na strukturach danych.
+Katalog `1 - structure` zawiera aplikację operującą na strukturach danych.
 
 Aplikacja pozwala na tworzenie poniższych struktur danych zawierających liczby całkowite:
 * tablicy
@@ -14,7 +14,7 @@ W każdej ze struktur można dokonać operacji dodawania, wyszukiwania i usuwani
 W przypadku tablicy i listy dwukierunkowej, możliwe jest dodawanie elementów w dowolnym miejscu struktury.
 
 ## Sekcja druga - algorytmy grafowe
-Katalog "2 - graph" zawiera aplikcję operującą na grafach.
+Katalog `2 - graph` zawiera aplikcję operującą na grafach.
 
 Aplikacja umożliwia wyznaczanie najkrótszej ścieżki w grafie oraz minimalnego drzewa rozpinającego.
 
