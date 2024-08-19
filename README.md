@@ -30,8 +30,19 @@ Informacje o grafie są przechowywane na dwa sposoby, i możliwe jest uruchomien
 * Macierz sąsiedztwa
 * Lista sąsiedztwa
 
-## Input
+Graf jest interpretowany jako nieskierowany w przypadku problemu MDR, a skierowany w przypadku problemu najkrótszej ścieżki.
+
+## Wczytywanie z pliku
 Aby wczytać dane z pliku, należy umieścić plik o nazwie `input.txt` w tym samym katalogu co aplikacja.
 
+W przypadku aplikacji 1, `input.txt` powinien zawierać liczby całkowite, każda w osobnej linii. Liczby te zostaną dodane do struktury w tej samej kolejności.
+
+W przypadku aplikacji 2, `input.txt` powinien w pierwszej linii zawierać liczbę krawędzi i wierzchołków, natomiast każda kolejna linia pliku zawiera kolejne informacje o jednej krawędzi:
+* Wierzchołek początkowy krawędzi (liczony od zera)
+* Wierzchołek końcowy krawędzi
+* Waga/koszt krawędzi
+
 ## Eksperyment
-Obie aplikacje pozwalają na wykonywanie analizy czasu działania każdej z operacji dla każdego z algorytmów i struktur danych.
+Obie aplikacje pozwalają na wykonanie analizy czasu działania każdej z operacji dla każdego z algorytmów i struktur danych.
+
+Eksperyment polega na wygenerowaniu zadanej liczby struktur/grafów o losowej zawartości, a następnie przeprowadzeniu na każdej z nich podanej liczby losowych operacji/uruchomień algorytmów, wraz z mierzeniem czasu ich działania.
